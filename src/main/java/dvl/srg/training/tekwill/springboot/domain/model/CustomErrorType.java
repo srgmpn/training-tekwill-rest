@@ -1,0 +1,13 @@
+package dvl.srg.training.tekwill.springboot.domain.model;
+
+public class CustomErrorType {
+    private String errorMessage;
+
+    public CustomErrorType(String errorMessage){
+        this.errorMessage = errorMessage;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
+    }
+}
