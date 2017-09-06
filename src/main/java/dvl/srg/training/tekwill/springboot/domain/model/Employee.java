@@ -9,6 +9,9 @@ public class Employee implements Serializable {
     private String address;
     private double salary;
 
+    public Employee() {
+    }
+
     public Employee(long id, String name, String address, double salary) {
         this.id = id;
         this.name = name;
